@@ -1,4 +1,5 @@
-package sec02.ex01;
+
+package sec02.ex02;
 
 import java.sql.Date;
 
@@ -10,9 +11,8 @@ public class MemberVO {
 	private Date joinDate;
 	
 	public MemberVO() {
-		System.out.println("MemberVO 생성자 호출");
+		System.out.println("MemberVO 생성 완료");
 	}
-	
 
 	public String getId() {
 		return id;
